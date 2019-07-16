@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "ID حقك") return;
+  if (message.author.id !== "596603567998238731") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
@@ -55,4 +55,4 @@ if (message.content.startsWith(prefix + 'setgame')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NTk2NjAzNTY3OTk4MjM4NzMx.XS0M4A.aDF2H7w-BDNftmLGAtoEjmN7ZZw");
